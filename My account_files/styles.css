@@ -1,0 +1,103 @@
+/* Javlin CSS */
+
+/* Top level container for the person menu */
+.personMenu {width:150px;border-color:#b4c1d5;border-width:1px;border-style:solid; background-color:#e0e5ec; font-family:Helvetica, Arial, sans-serif; font-style:normal; margin:0px; padding:0px; -moz-border-radius: 0px;}
+.personMenu a { color:#0063dc; text-decoration:underline; }
+.semtag_header { }
+
+/* Business Card label
+.businessCardLabel {background-color:white;padding:10px;border-style:solid;border-width:0px 0px 1px 0px;border-color:#0099CD;}
+.businessCardLabel img {float:right;}
+*/
+
+.personImageOrg{border:1px solid rgb(192,192,192);float:right;padding:10px ; height:30px; width:30px; background-color:white;margin-right:6px;}
+.personImage1{display:none;border:1px solid rgb(192,192,192);float:right;padding:10px ; height:30px; width:30px; background-color:white;margin-right:6px ;}
+
+/* Container for business-card photo */
+.photoCard { float:right;}
+
+
+/* Container for business-card */
+.businessCardMenu {border-style:solid;border-width:0px 0px 0px 0px;border-color:#0099CD;-moz-border-radius: 0px; }
+.businessCard {float:left;padding-left:4px;}
+
+/* List for displaying business card information */
+.businessCard ul { list-style-type:none;float:left; }
+.businessCard .cardName { color:black; font-weight:bold; font-size:1.1em;font-style:000000;}
+.businessCard li { color:black; font-size:1.0em; }
+.businessCard a { text-decoration:underline; }
+
+.line {size:51px;width:99%;color:#0066cc ;}
+
+/* Label for toggle expandable section */
+.showMoreLabel{color:#105ec1;}
+.showMoreDiv{padding:0px 10px 10px;float:left;}
+
+/* Container for extended business-card */
+.businessCardExtended { float:left;padding-left:10px;border-style:solid;border-width:1px 0px 0px 0px;border-color:#b4c1d5;width:50px; }
+
+/* List for displaying extended business card information */
+.businessCardExtended ul { list-style-type:none; margin:0px; padding-left:0px }
+.businessCardExtended .cardName { color:black; font-weight:bold; font-size:1.1em; }
+.businessCardExtended li { color:black; font-size:1.0em; }
+.businessCardExtended a { text-decoration:underline; }
+.toggle { float:right; margin:1px 1px 1px 1px; padding:0px; }
+.toggle img { float:right; }
+
+/* Container for person menu actions */
+.personMenuActions { clear:both; background-color:white; width:100%; padding:0px; margin-bottom:0px; border-top:1px solid #ACB9CD; }
+
+/* Styles for menu list */
+.personMenuActions ul { padding:0px; margin:0px; list-style:none; }
+.personMenuActions li { }
+
+/* Styles for the hover */
+.menu_drop_icon { color:black; font-family: Arial, Tahoma, Verdana, Helvetica, sans-serif; font-size:1.0em; background-color:#e2eeff; border:1px solid #ACB9CD; padding:2px; -moz-border-radius: 0px; }
+.menu_drop_icon img { border:none; }
+a.menu_drop_icon { background: url(menu_dropdown.gif) no-repeat scroll center; }
+a.menu_drop_icon:link, a.menu_drop_icon:visited{ color:#000; text-decoration:none; }
+a.menu_drop_icon:hover { background: url(menu_dropdown.gif) no-repeat scroll center; }
+
+.hasHover { border-bottom: 1px dotted #306bc4; }
+img.hasHover { padding:1px; border:1px dotted #306bc4; }
+
+
+/* Values specific to popup menu */
+.personMenu { width:400px; }
+.personMenu .photoCard { }
+.personMenu .photoCard img { }
+.personMenu .businessCard { width:258px; }
+.personMenu .businessCard ul { }
+.personMenu .businessCard .cardName { }
+.personMenu .businessCard li { }
+.personMenu .businessCard a { }
+/*.personMenu .businessCardExtended { width:358px; }*/
+.personMenu .businessCardExtended { width:390px; }
+.personMenu .businessCardExtended ul { }
+.personMenu .businessCardExtended .cardName { }
+.personMenu .businessCardExtended li { }
+.personMenu .businessCardExtended a { }
+.personMenu .toggle { width:390px;}
+.personMenu .toggle img{ float:right;}
+.personMenu .personMenuActions { -moz-border-radius: 0px; }
+.personMenu .personMenuActions tr, .personMenu .personMenuActions td { border-width:0px; padding:0px; margin:0px; -moz-border-radius: 0px; }
+.personMenu .personMenuActions a { color:black; font-size:1.0em; text-decoration:none; border: solid 1px; display:block; padding:1px 2px 1px 5px; -moz-border-radius: 0px; }
+.personMenu .personMenuActions a:link, .personMenu .personMenuActions a:visited { border-color: white; }
+.personMenu .personMenuActions a:hover, .personMenu .personMenuActions a:active { background-color:#e2eeff; border-color: #8bb5e8; }
+.personMenu .personMenuActions a:focus, .personMenu .personMenuActions a:active { background-color:#e2eeff; border-color: #8bb5e8; }
+
+/* Values specific to inline menu */
+.X-person-display-inline .personMenu { }
+.X-person-display-inline .personMenu .photoCard { }
+.X-person-display-inline .personMenu .photoCard img { }
+.X-person-display-inline .personMenu .businessCard { }
+.X-person-display-inline .personMenu .businessCard ul { }
+.X-person-display-inline .personMenu .businessCard .cardName { }
+.X-person-display-inline .personMenu .businessCard li { }
+.X-person-display-inline .personMenu .personMenuActions { }
+.X-person-display-inline .personMenu .personMenuActions ul { }
+.X-person-display-inline .personMenu .personMenuActions li { }
+.X-person-display-inline .personMenu .personMenuActions a:link, .X-person-display-inline .personMenuActions a:visited{ }
+
+/* hyper link for Person Menu */
+.hyperLink { color:black; text-decoration:none; }

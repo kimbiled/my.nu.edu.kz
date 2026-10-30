@@ -1,0 +1,37 @@
+Ext.define('MyMain.store.main.ServicesParams', {
+    extend: 'Ext.data.SimpleStore',
+    data: [
+        [100, 'paramsmealplan'],
+        [151, 'paramsprint'],
+        [401, 'paramsbedset'],
+        [402, 'paramsbedding'],
+        [605, 'paramsdormitory'],
+        [616, 'paramsparking'],
+        [611, 'paramsStudentFund'],
+        [501, 'paramsmonth'],
+        [502, 'paramsmonth'],
+        [504, 'paramsmonth'],
+        [506, 'paramsmonth'],
+        [601, 'paramsyear'],
+        [602, 'paramsmonth'],
+        [620, 'paramsmantia'],
+        [600, 'paramsrecovery'],
+        [503, 'paramsmonth', 'Class: Sport'],
+        [520, 'paramsmonthsport', 'Class: Boxing'],
+        [521, 'paramsmonthsport', 'Class: Judo'],
+        [522, 'paramsmonthsport', 'Class: MMA'],
+        [523, 'paramsmonthsport', 'Class: Aikido'],
+        [524, 'paramsmonthsport', 'Class: Table Tennis'],
+        [525, 'paramsmonthsport', 'Class: Interval training I'],
+        [526, 'paramsmonthsport', 'Class: Interval training II'],
+        [527, 'paramsmonthsport', 'Class: Abs & Stretch'],
+        [528, 'paramsmonthsport', 'Class: Booty Boot Camp'],
+        [529, 'paramsmonthsport', 'Class: Zumba'],
+        [531, 'paramsmonthsport', 'Class: Taekwondo'],
+        [532, 'paramsmonthsport', 'Class: Wrestling'],
+        [534, 'paramsmonthsport', 'Class: Pilates']
+
+    ],
+    id: 0,
+    fields: ['id', 'name', 'params']
+});

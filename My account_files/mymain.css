@@ -1,0 +1,483 @@
+
+.noborder>.x-panel-body-default {
+	border: none;
+}
+
+.nopaddingbar {
+	padding: 0;
+}
+
+.noborder.x-toolbar-default {
+	border: none;
+}
+
+.lightgrayed {
+	color: #ccc;
+}
+
+.longheader {
+	width: 180px;
+	height: 55px;
+	overflow: hidden;
+	font-size: smaller;
+}
+
+.w150 {
+	width: 150px !important;
+}
+
+.groupheader {
+	height: 55px;
+}
+
+.vertheader .x-column-header-text {
+	/* Safari */
+	-webkit-transform: rotate(-90deg);
+	/* Firefox */
+	-moz-transform: rotate(-90deg);
+	/* Opera */
+	-o-transform: rotate(-90deg);
+	/* IE */
+	-ms-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+	display: inline-block;
+	height: 90px;
+	width: 90px;
+	font-size: smaller;
+	/*padding-top:15px;*/
+	/*white-space: nowrap;*/
+}
+
+.item-is-deleted .x-grid-cell-inner {
+	/*background-color: #CDCDCD;*/
+	color: #CDCDCD;
+}
+
+.item-is-inherited .x-grid-cell-inner {
+	color: #584B4B;
+	font-style: italic;
+}
+
+.item-is-added .x-grid-cell {
+	background-color: #ffe2e2;
+}
+
+.item-is-added.x-grid-row-over .x-grid-cell {
+	background-color: #F7E0FF;
+}
+
+.item-is-added.x-grid-row-focused .x-grid-cell {
+	background-color: #FFB800;
+}
+
+.group .x-column-header-inner, .group .x-grid-cell-inner {
+	background-color: lightblue;
+}
+
+.button {
+	margin: 1px;
+	padding: 2px;
+	background-color: transparent; /*#FDFCFC;*/
+	border-radius: 0;
+	background-repeat: no-repeat;
+	border: solid 1px transparent; /*#e1e1e1;*/
+}
+
+.button:hover {
+	border: solid 1px lightgray;
+	background-color: #f5f5f5;
+}
+
+.button48 {
+	width: 50px;
+	height: 50px;
+}
+
+.button48.button-add {
+	background-image: url('../images/add-icon48.png');
+	background-position-x: 7px;
+	background-position-y: 2px;
+}
+
+.button48.button-edit {
+	background-image: url('../images/edit-icon48.png');
+	background-position-x: 6px;
+	background-position-y: 2px;
+}
+
+.button48.button-delete {
+	background-image: url('../images/delete-icon48.png');
+	background-position-x: 1px;
+	background-position-y: 2px;
+}
+
+.button32 {
+	width: 36px;
+	height: 36px;
+	background-position-x: 2px;
+	background-position-y: 2px;
+}
+
+.button32.button-add {
+	background-image: url('../images/add-icon32.png');
+}
+
+.button32.button-edit {
+	background-image: url('../images/edit-icon32.png');
+}
+
+.button32.button-delete {
+	background-image: url('../images/delete-icon32.png');
+	background-position-x: 3px;
+}
+
+.button16 {
+	width: 18px;
+	height: 18px;
+	background-position-x: 1px;
+	background-position-y: 1px;
+}
+
+.button16.button-add {
+	background-image: url('../images/add-icon16.png');
+}
+
+.button16.button-edit {
+	background-image: url('../images/edit-icon16.png');
+}
+
+.button16.button-delete {
+	background-image: url('../images/delete-icon16.png');
+}
+
+.button24 {
+	width: 30px;
+	height: 30px;
+	background-position-x: 2px;
+	background-position-y: 2px;
+}
+
+.button24.button-add {
+	background-image: url('../images/add-icon24.png');
+}
+
+.button24.button-edit {
+	background-image: url('../images/edit-icon24.png');
+}
+
+.button24.button-delete {
+	background-image: url('../images/delete-icon24.png');
+}
+
+.button24.button-payments {
+	background-image: url('../images/orange-coins-24.png');
+}
+
+.service-type {
+	margin: 5px 2px;
+	padding: 10px;
+	border: 1px solid #ddd;
+}
+
+.service-type.first {
+	margin: 0px 2px;
+}
+
+/*todo раскоментировать для аккордеон-меню*/
+/*.service-type .service-list {*/
+	/*display: none;*/
+/*}*/
+/*.service-type.first .service-list{*/
+	/*display: block;*/
+/*}*/
+
+.service-info>.x-panel-body {
+	background-color: #EFEFEF;
+}
+
+
+.light-border {
+	border-color: #70B9ED;
+	border-radius: 0px !important;
+	border-width: 2px;
+}
+
+.view-icon {
+	background:
+		url(/extjs-base/js/extjs/resources/ext-theme-neptune/images/tools/tool-sprites-dark.png)
+		-1px -672px;
+	width: 16px;
+	height: 16px;
+	margin-top: 3px;
+	cursor: pointer;
+}
+
+.pay-icon{
+    background: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTguMS4xLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDQ5MiA0OTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQ5MiA0OTI7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxNnB4Ij4KPGc+Cgk8Zz4KCQk8cGF0aCBkPSJNMzcwLjUsMjU0Yy0xNC42NjctMTEuMzMzLTM2LjY2Ny0yMC42NjctNjYtMjhsLTIzLTV2LTk3YzAuNjY3LDAuNjY3LDEuMzMzLDEsMiwxczEsMC4zMzMsMSwxICAgIGMxOS4zMzQsOS4zMzMsMjkuNjY4LDI1LjMzMywzMSw0OGg3N2MtMS4zMzMtNDAtMTYuMzMzLTcwLjY2Ny00NS05MmMtMTguNjY3LTE0LTQwLjY2Ny0yMy4zMzMtNjYtMjhWMGgtNzF2NTIgICAgYy0zMy4zMzMsNC01OS42NjcsMTQuNjY3LTc5LDMyYy0yNS4zMzMsMjIuNjY3LTM4LDUxLjMzNC0zOCw4NmMwLDM3LjMzMywxMyw2NSwzOSw4M2MxNCwxMCw0MCwxOS4zMzMsNzgsMjh2MTA0ICAgIGMtMTQtNC0yNC42NjctMTAuMzMzLTMyLTE5Yy04LTkuMzMzLTEzLTIyLTE1LTM4aC03NmMwLDM5LjMzMywxNC4zMzMsNzAuMzMzLDQzLDkzYzIwLjY2NywxNiw0Ny4zMzMsMjYuMzMzLDgwLDMxdjQwaDcxdi0zOSAgICBjMzQuNjY3LTQuNjY3LDYyLjMzMy0xNS42NjcsODMtMzNjMjYuNjY3LTIzLjMzMyw0MC01Mi42NjcsNDAtODhDNDA0LjUsMjk4LDM5My4xNjcsMjcyLDM3MC41LDI1NHogTTIxMC41LDIwNCAgICBjLTExLjMzMy0zLjMzMy0xOS4zMzMtNi4zMzMtMjQtOWMtMTIuNjY3LTYuNjY3LTE5LTE3LTE5LTMxYzAtMTUuMzMzLDYuMzMzLTI3LDE5LTM1YzYuNjY3LTQsMTQuNjY3LTcuMzMzLDI0LTEwVjIwNHogTTI5My41LDM4MyAgICBjLTMuMzMzLDEuMzMzLTcuMzMzLDIuMzMzLTEyLDN2LTg5YzEyLjY2Nyw0LDIyLjMzMyw4LDI5LDEyYzExLjMzMyw3LjMzMywxNywxNy4zMzMsMTcsMzBDMzI3LjUsMzYwLjMzMywzMTYuMTY3LDM3NSwyOTMuNSwzODN6IiBmaWxsPSIjNzg3ODc4Ii8+Cgk8L2c+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==);
+ 	width: 16px;
+	height: 16px;
+	margin-top: 3px;
+	cursor: pointer;
+}
+
+.view-icon.x-item-disabled,
+.pay-icon.x-item-disabled{
+	cursor: auto;
+}
+
+.attention {
+	margin-bottom: 10px;
+	font-weight: bold;
+	font-style: italic;
+	color: red;
+}
+
+.esot {
+	text-shadow: none;
+}
+
+.esot .x-grid-row .x-grid-cell {
+	font: normal 12px tahoma, arial, verdana, sans-serif !important;
+}
+
+.esot .x-form-item-label,
+.esot .x-form-cb-label  {
+	font-size: 13px !important;
+}
+
+.esot .myaccount-tabs-body, 
+.bill-popup .popup-tabs-body {
+	margin-top: -1px
+}
+
+.esot .x-tab, 
+.bill-popup .x-tab {
+	border: 1px solid #ddd !important;
+	background-color: #F0F0F0;
+}
+
+.esot .x-tab-default-top, 
+.bill-popup .x-tab-default-top {
+	padding: 3px 10px 0px 10px;
+	color: #000;
+}
+
+.esot .x-tab-top-over, 
+.bill-popup .x-tab-top-over {
+	background-image: none;
+	background-color: #fafafa !important;
+}
+
+.esot .service-item {
+	padding-top: 3px;
+}
+
+.esot .service-details-panel {
+	border: 1px solid #ddd;
+}
+
+.esot .service-details-panel .x-header-text {
+	font-size: 17px;
+	color: #0039AD;
+}
+
+.esot a.pay-off-btn {
+	background: none !important;
+	border-color: #105cb6;
+	border-radius: 0;
+	border-width: 2px;
+}
+
+.esot a.pay-off-btn:hover {
+	background-color: #fafafa !important;
+	text-decoration: none;
+}
+
+.esot a.pay-off-btn .x-btn-inner {
+	color: #C50E0E;
+	font-weight: 900;
+	text-transform: uppercase;
+	text-shadow: none;
+	border-radius: 0px !important;
+}
+
+.esot .service-name {
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+.esot .service-name span {
+	font-size: 14px;
+	color: #0039AD;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+.esot a.label {
+	text-shadow: none;
+	font-weight: normal;
+	background-color: #fff;
+	color: #105cb6;
+}
+
+.esot a.label.visited {
+	color: #105cb6;
+	font-weight: bold;
+}
+
+.esot a.label:hover {
+	color: #105cb6;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.esot .pagingtoolbar a.x-btn-toolbar .x-btn-inner {
+  display: none !important;
+}
+
+.esot .pagingtoolbar a.x-btn-toolbar .x-btn-icon-el{
+	display:block;
+	width:16px;
+	height: 16px;
+}
+
+.esot .pagingtoolbar a.x-btn-toolbar.x-toolbar-item {
+	border: 0px;
+	box-shadow: none;
+}
+
+.esot .pagingtoolbar a.x-btn-toolbar.x-toolbar-item:hover {
+	text-decoration:none;
+	border: 1px solid #ddd;
+	background-color: #efefef;
+	padding-top: 2px;
+	padding-left: 8px;
+}
+
+.esot .x-toolbar-default {
+	background-image: none;
+}
+
+.esot .pagingtoolbar a.x-btn-toolbar.x-toolbar-item.x-disabled:hover {
+	text-decoration:none;
+	border: 0px;
+	background: none;
+	padding-top: 3px;
+	padding-left: 9px;
+}
+
+.esot .x-tbar-page-number .x-form-field{
+	padding: 0px 6px;
+	font-size: 12px;
+	border-radius: 3px;
+}
+
+.esot .x-toolbar{
+	padding: 3px;
+}
+
+.list-open {
+	background: url('../theme/images/minus.png');
+	width: 24px;
+	height: 24px;
+	margin-right: 5px;
+	cursor: pointer;
+	float: left;
+	background-repeat: no-repeat;
+}
+
+.list-close {
+	background:url('../theme/images/plus.png');
+	width: 24px;
+	height: 24px;
+	margin-right: 5px;
+	cursor: pointer;
+	float: left;
+	background-repeat: no-repeat;
+}
+
+.paid td {
+	background-color: rgb(222, 251, 255) !important;
+}
+
+.unpaid td {
+	background-color: rgba(255, 48, 48, 0.3) !important;
+}
+
+.cancelled td {
+	background-color: #ec89f9 !important;
+}
+
+.refunded td {
+	background-color: #fff1d0 !important;
+}
+
+.wpsPortletBody{
+    margin-right: 15px;
+}
+
+/* Bootstrap style reset*/
+p {
+    margin: 0px;
+}
+    
+.x-body, li {
+	line-height: 16px;
+}
+
+.x-datepicker {
+	width: 177px;
+}
+
+.x-datepicker .x-datepicker-date .x-hide-clip {
+	display: none;
+}
+
+.x-datepicker .x-btn {
+	border: 1px solid;
+	border-color: rgba(0,0,0,0.15) rgba(0,0,0,0.15) rgba(0,0,0,0.25);
+}
+
+.x-datepicker-month .x-btn {
+	box-shadow: none;
+}
+
+.x-boundlist .x-boundlist-item {
+	font-size: 12px;
+}
+
+table.x-datepicker-inner th{
+	padding-right: 8px;
+}
+
+.paramsmonth .confirm {
+    height:30px;
+}
+.paramsmonth .details {
+    margin-right:15px;
+    padding-top:7px;
+    color: #868181;
+}
+.paramsbedding .cost {
+    padding-top: 3px;
+    font-weight: bold;
+}
+
+
+.service-warning .x-panel-body {
+	background-color: transparent;
+	border-color: transparent;
+}
+.service-warning  .information {
+    left:0px !important;
+}
+.service-warning  a.label{
+    background: transparent;
+    color: white;
+}
+.service-warning  a.label:hover{
+    color: white;
+}
+.service-warning  .closing{
+}

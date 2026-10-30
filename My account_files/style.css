@@ -1,0 +1,78 @@
+@CHARSET "UTF-8";
+
+.my_profile {
+	width: 228px;
+	color: #fff;
+	line-height: normal;
+	text-shadow: none;
+}
+
+.my_profile .profile_photo img {
+	max-height: 208px;
+	max-width: 203px;
+	margin: 0px auto 0px auto;
+	display: block;
+}
+
+.my_profile .profile_id {
+	margin-top: 5px;
+	margin-bottom: 15px;
+	font-size: 13px;
+	color: #0039AD;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+
+.my_profile .person-name{
+	color: #ca8728;
+	font-weight: 900;
+	text-shadow: none;
+	text-transform: uppercase;
+	margin: 0px;
+}
+
+.my_profile .modalDialog {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+	display: none;
+}
+
+.my_profile .modalDialog > div {
+    width: 90%;
+    height: 475px;
+    position: relative;
+	margin: 10% auto;
+    padding: 5px 5px 60px;
+    border-radius: 4px;
+    background: #fff;
+}
+
+.my_profile .modalDialog embed {
+	border: 1px solid #ccc;
+    height: 480px;
+    width: 100%;
+}
+
+.my_profile .linkP {
+    color: #08c;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.my_profile .linkP:hover {
+    color: #005580;
+    text-decoration: underline;
+}
+
+.my_profile .modalDialog .linkP {
+    float: right;
+}
