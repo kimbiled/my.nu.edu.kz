@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="90" viewBox="0 0 320 90" role="img" aria-label="Nazarbayev University — demo emblem">
+  <g fill="none" stroke="#805b3e" stroke-width="2.5">
+    <circle cx="43" cy="45" r="34"/>
+    <circle cx="43" cy="45" r="29" stroke="#c7ac7c" stroke-width="1"/>
+    <path d="M22 43c8-4 15-3 21 1 6-4 13-5 21-1v18c-8-4-15-3-21 1-6-4-13-5-21-1z"/>
+    <path d="M43 44v18M28 49l9 2m-9 4 9 2m12-6 9-2m-9 8 9-2" stroke-width="1.5"/>
+    <path d="M32 34h22M36 29h14M43 22v4" stroke="#c7ac7c" stroke-linecap="round"/>
+  </g>
+  <g font-family="Georgia, 'Times New Roman', serif" fill="#805b3e">
+    <text x="88" y="40" font-size="22" letter-spacing="1">NAZARBAYEV</text>
+    <text x="89" y="62" font-size="16" letter-spacing="4">UNIVERSITY</text>
+  </g>
+</svg>

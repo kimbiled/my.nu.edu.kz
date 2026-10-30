@@ -1,0 +1,7 @@
+Use case: photorealistic-natural
+Asset type: small panoramic university website header photo
+Primary request: a fictional modern university campus building, clearly an invented campus rather than a specific real university.
+Scene: bright clear daytime, low modern white stone and glass academic buildings, a central glass atrium, a few green trees and a clean pedestrian forecourt.
+Composition: wide panoramic landscape, building centered, architecture fully visible, clean simple composition that stays readable when displayed at 300 by 100 pixels.
+Style: natural architectural photograph, neutral daylight, understated warm stone and teal glass accents.
+Constraints: no people, no logos, no text, no watermark.
