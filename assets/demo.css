@@ -1,0 +1,37 @@
+html[data-demo-page="account"]:not([data-session-ready]) body {
+  visibility: hidden;
+}
+
+.demo-session-note {
+  margin: 12px 15px 0;
+  color: #716454;
+  font: 12px/1.5 Arial, sans-serif;
+}
+
+.demo-status {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  left: 20px;
+  z-index: 100000;
+  width: fit-content;
+  max-width: calc(100% - 40px);
+  margin: auto;
+  padding: 14px 20px;
+  border: 1px solid #e4d8c9;
+  border-radius: 4px;
+  background: #fff;
+  color: #514e46;
+  box-shadow: 0 4px 18px #0002;
+  font: 14px/1.5 Arial, sans-serif;
+}
+
+#demo-payments {
+  padding: 32px 16px;
+  color: #666;
+  font: 14px/1.5 Arial, sans-serif;
+}
+
+[hidden] { display: none !important; }
+
+.header__nu_name > a > .df { gap: 12px; }

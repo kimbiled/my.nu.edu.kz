@@ -1,0 +1,106 @@
+* { box-sizing: border-box; }
+
+html { min-height: 100%; background: #d4e3e8; }
+
+body {
+  min-height: 100vh;
+  min-height: 100svh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  padding: 32px 20px;
+  background: url('./images/campus-background.jpg') center center / cover no-repeat fixed;
+  color: #151515;
+  font-family: Tahoma, Arial, sans-serif;
+}
+
+.login-card {
+  width: min(375px, 100%);
+  padding: 38px 35px 34px;
+  background: #fff;
+  text-align: center;
+}
+
+.anniversary-logo {
+  display: block;
+  width: 200px;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 34px;
+}
+
+h1 {
+  margin: 0 0 14px;
+  font: 400 16px/1.35 Georgia, 'Times New Roman', serif;
+}
+
+.demo-note {
+  margin: 0 0 24px;
+  color: #82755f;
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+.login-field { position: relative; display: block; margin: 0 0 20px; }
+
+.login-field svg {
+  position: absolute;
+  top: 10px;
+  left: 11px;
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: #ddb25d;
+  stroke-width: 1.7;
+  pointer-events: none;
+}
+
+input {
+  display: block;
+  width: 100%;
+  height: 39px;
+  padding: 9px 12px 9px 36px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  background: #fff;
+  color: #333;
+  font: 13px Tahoma, Arial, sans-serif;
+}
+
+input:focus-visible, button:focus-visible {
+  outline: 2px solid #b18a37;
+  outline-offset: 3px;
+}
+
+button {
+  min-width: 123px;
+  min-height: 42px;
+  margin: 10px auto 0;
+  padding: 12px 24px;
+  border: 0;
+  border-radius: 2px;
+  background: #e0b154;
+  color: #fff;
+  font: 700 12px Georgia, 'Times New Roman', serif;
+  cursor: pointer;
+}
+
+button:hover { background: #cca047; }
+
+.login-error { margin: 16px 0 0; color: #a2382b; font-size: 12px; line-height: 1.5; }
+.login-error:empty { display: none; }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+@media (max-width: 420px) {
+  body { padding: 24px 16px; }
+  .login-card { padding: 32px 24px; }
+  input { font-size: 16px; }
+}
